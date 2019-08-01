@@ -60,6 +60,7 @@
         console.log(htmlString);
         ulTodos.append(htmlString);
         $('.toggle').click(toggleTask);
+        $('.new-todo').val('');
       });
     });
 
