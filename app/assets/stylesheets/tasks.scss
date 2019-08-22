@@ -14,7 +14,7 @@ button {
   font-family: inherit;
   font-weight: inherit;
   color: inherit;
-  -webkit-appearance: none;
+  -webkit-appearance: checkbox;
   appearance: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -181,7 +181,7 @@ label[for='toggle-all'] {
   bottom: 0;
   margin: auto 0;
   border: none; /* Mobile Safari */
-  -webkit-appearance: none;
+  -webkit-appearance: checkbox;
   appearance: none;
 }
 
